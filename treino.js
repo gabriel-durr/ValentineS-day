@@ -6,8 +6,7 @@ function redHeart() {
     let color = r.style.backgroundColor = "red"
      color = r.style.boxShadow = "2px 0px 70px 17px red"
     r = color 
-    
-    
+   
 }
 
 setTimeout(redHeart, 2000)
