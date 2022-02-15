@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(26, 24, 43);
+   
+}
+
+
+
+
+.containerhearts {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(7, 8, 20);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10%;
+    
+
+}
+
+
+
+/* CORAÇÃO VERMELHO */
+
+
+.heartred {
+
+    margin-top: 50px;
+    border: 2px solid red;
+    height: 100px;
+    transform: rotate(-45deg);
+    width: 100px;
+    position: relative;
+}
+
+.heartred:before,
+.heartred:after {
+    content: "";
+    background-color: rgba(255, 0, 0, 0.603);
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.heartred:before {
+    top: -50px;
+}
+
+.heartred:after {
+    left: 50px;
+}
+
+
+
+
+/* CORAÇÃO AMARELO  */
+
+
+.heartyellow {
+    margin: 30px;
+    margin-top: 60px;
+    border: 2px solid yellow;
+    height: 100px;
+    transform: rotate(-45deg);
+    width: 100px;
+    position: relative;
+}
+
+.heartyellow:before,
+.heartyellow:after {
+    content: "";
+    background-color: rgba(255, 255, 0, 0.726);
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    
+}
+
+.heartyellow:before {
+    top: -50px;
+}
+
+.heartyellow:after {
+    left: 50px;
+}
+
+
+
+
+
+
+/* CORAÇÃO AMARELO  */
+
+
+
+.heartgreen {
+    margin: 30px;
+    border: 2px solid green;
+    height: 100px;
+    transform: rotate(-45deg);
+    width: 100px;
+    position: relative;
+}
+
+.heartgreen:before,
+.heartgreen:after {
+    content: "";
+    background-color: green;
+    border-radius: 50%;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+}
+
+.heartgreen:before {
+    top: -50px;
+}
+
+.heartgreen:after {
+    left: 50px;
+}
+
+
+
+
+
+
+/* LOVE TITULO */
+
+#text {
+
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: antiquewhite;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 4rem;
+}
